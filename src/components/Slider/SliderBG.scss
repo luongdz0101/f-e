@@ -1,0 +1,54 @@
+.img-slider,
+.img-slider-1,
+.img-slider-2,
+.img-slider-3 {
+    background: url(../../assets/img-slider/105804-nx-nipt.png) center center no-repeat;
+    height: 340px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+}
+
+.img-slider-1 {
+    background: url(../../assets/img-slider/134537-group-12314.png) center center no-repeat;
+    height: 340px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+}
+
+.img-slider-2 {
+    background: url(../../assets/img-slider/141422-144204-dat-lich-kham-bookingcare-pharmacity.jpg) center center no-repeat;
+    height: 340px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+}
+
+.img-slider-3 {
+    background: url(../../assets/img-slider/163557-dat-lich-cham-soc-wecare247.png) center center no-repeat;
+    height: 340px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+}
+
+.body-slider {
+    .slick-prev {
+        display: none !important;
+
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .slick-dots li button:before {
+        font-size: 0.8rem;
+
+    }
+}

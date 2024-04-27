@@ -1,0 +1,225 @@
+.section-specialty {
+    padding: 1rem 0;
+    margin-top: 60px;
+
+    .header__title--body {
+        display: flex;
+        justify-content: start;
+
+        .specialty-header__title {
+            margin-left: 1rem;
+            font-weight: 600;
+            color: rgb(26, 26, 26);
+            font-size: 24px;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    .header__button--body {
+        display: flex;
+        justify-content: end;
+
+        .specialty-header__button {
+            font-size: 20px;
+            letter-spacing: 0.1rem;
+            font-weight: 600;
+        }
+    }
+
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.specialty-content__body {
+
+    cursor: pointer;
+
+    margin-left: 8px;
+
+    .specialty-content {
+        border-radius: 16px;
+        border: 2px solid rgb(241, 241, 241);
+        background-color: rgb(255, 255, 255);
+        width: 312px;
+
+        padding: 1rem;
+
+
+        .specialty-content__img {
+
+
+            &.img_specialty {
+                // background: url(../../assets/img-specialty/sieu-am-thai.jpg) center center no-repeat;
+                width: 100%;
+                height: 218px;
+                border-radius: 16px;
+                background-size: cover;
+                background-repeat: no-repeat
+            }
+
+            &.medical-content__img {
+                // background: url(../../assets/img-health-facilities/benh-vien-an-viet.jpg) center center no-repeat;
+                height: 153px;
+                width: 100%;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+
+            &.img_doctor {
+                // background: url(../../assets/img-doctor/-bs-nguyenvanthong.jpg) center center no-repeat ;
+                height: 284px;
+                margin: 0 auto;
+                width: 90%;
+                background-size: contain;
+                border-radius: 50%;
+                cursor: pointer;
+                background-repeat: no-repeat
+            }
+
+            &.img_answered-1 {
+                background: url(../../assets/answeredDoctor/camnanghoidap.jpeg) center center no-repeat;
+                height: 240px;
+                margin: 0 auto;
+                width: 100%;
+                border-radius: 2rem;
+                background-size: contain;
+            }
+
+
+            &.img_answered {
+                background: url(../../assets/answeredDoctor/hoidapcongdong.jpeg) center center no-repeat;
+                height: 240px;
+                margin: 0 auto;
+                width: 100%;
+                border-radius: 2rem;
+                background-size: contain;
+            }
+
+            &.img_for-you {
+                background: url(../../assets/img-for-you/bai-viet.png) center center no-repeat;
+                height: 240px;
+                width: 86%;
+                border-radius: 50%;
+                background-size: cover;
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+                background-size: contain;
+                margin: 0 auto;
+
+            }
+
+            &.img_mental-health {
+                background: url(../../assets/img-MentalHealth/suc-khoe-tam-than.jpg) center center no-repeat;
+                width: 100%;
+                height: 280px;
+                border-radius: 16px;
+            }
+
+            &.img_for-life {
+                background: url(../../assets/sk/1.jpg) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+            &.img_for-life-1 {
+                background: url(../../assets/sk/20190909_035324_283350_me-con.max-1800x1800.jpg) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+            &.img_for-life-2 {
+                background: url(../../assets/sk/3.jpg) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+            &.img_for-life-3 {
+                background: url(../../assets/sk/4.jpg) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+            &.img_for-life-4 {
+                background: url(../../assets/sk/5.png) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+            &.img_for-life-5 {
+                background: url(../../assets/sk/6.jpg) center center no-repeat;
+                width: 100%;
+                height: 200px;
+                border-radius: 16px;
+                background-size: contain;
+            }
+
+        }
+
+        .specialty-content__text {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: center;
+            color: rgb(26, 26, 26);
+            line-height: 32px;
+            margin-top: 1rem;
+            text-align: center;
+
+            &:hover {
+                color: #3498db;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+
+
+.slick-prev {
+    display: block !important;
+    background: rgb(181, 231, 237) !important;
+    left: -16px !important;
+    top: 45% !important;
+    z-index: 1000 !important;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 0.6rem !important;
+
+}
+
+.slick-next {
+    display: block !important;
+    right: -16px !important;
+    top: 45% !important;
+    z-index: 1000 !important;
+    height: 40px !important;
+    width: 40px !important;
+    background: rgb(181, 231, 237) !important;
+    border-radius: 0.6rem !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: '';
+}
+
+.slick-disabled {
+    display: none !important;
+}

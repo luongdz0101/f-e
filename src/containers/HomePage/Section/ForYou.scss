@@ -1,0 +1,27 @@
+.for-you__container{
+    display: flex;
+    align-items: center;
+}
+
+.for-you-container__text{
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    
+    .for-you_doctor{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 4px;
+        color: rgb(17, 49, 53);
+        display: block;
+        margin-left: 86px;
+        text-align: start;
+        &:hover{
+            cursor: pointer;
+            color: #3498db;
+        }
+        
+    }
+}

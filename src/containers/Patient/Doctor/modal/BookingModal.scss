@@ -1,0 +1,60 @@
+.booking-modal-body {
+    .booking-modal-container {
+
+
+        .booking-modal-header {
+            padding: 10px;
+
+            .right {
+                float: right;
+                font-size: 1.2rem;
+                cursor: pointer;
+
+                &:hover {
+                    color: aqua;
+                }
+            }
+
+            .left {
+                font-size: 1.2rem;
+            }
+        }
+
+        .booking-modal-childe__body {
+            height: 80%;
+            padding: 15px;
+
+            .doctor-info {
+                padding: 1rem 0;
+                border-bottom: 1px solid#ccc;
+            }
+
+            .price {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-size: 1.2rem;
+                margin: 2rem 0;
+
+                .form-check-input,
+                .form-check-label {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .booking-modal-footer {
+
+            height: 30px;
+            padding: 2rem;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+            .btn-modal__one {
+                margin-right: 2rem;
+            }
+        }
+    }
+
+}

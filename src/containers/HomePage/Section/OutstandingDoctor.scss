@@ -1,0 +1,48 @@
+.doctor-container__dow {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+
+
+
+.doctor-container__text {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .name_doctor {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 4px;
+        color: rgb(17, 49, 53);
+
+        &:hover {
+            cursor: pointer;
+            color: #3498db;
+        }
+    }
+
+    .department-doctor {
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        color: rgb(98, 98, 98);
+        display: flex;
+    }
+}
+
+.section-doctor {
+    height: 480px !important;
+}
+
+.doctor-header {
+    padding-top: 2rem;
+}

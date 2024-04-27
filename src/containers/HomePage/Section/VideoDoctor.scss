@@ -1,0 +1,115 @@
+.bg {
+    background: url(../../../assets/background5.png) !important;
+    height: 500px;
+}
+
+.video-doctor-body {
+    height: 600px;
+
+    .video-header {
+        padding: 2rem 0;
+
+        .video-header__text {
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            color: rgb(26, 26, 26);
+            font-size: 32px;
+        }
+    }
+}
+
+.video__footer {
+    .video_body {
+        .video-content {
+
+            .video {
+                width: 100%;
+                height: 100%;
+                border-radius: 2rem;
+
+                height: 330px;
+            }
+        }
+
+        .logo-video__container {
+
+
+            .link-video {
+
+
+                .img-video {
+                    background: url(../../../assets/img-video/vtv1.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: inherit;
+                    padding: 1rem 0;
+                }
+
+                .img-video1 {
+                    background: url(../../../assets/img-video/110757-dantrilogo.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: inherit;
+                    padding: 1rem 0;
+                    background-size: contain;
+                }
+
+                .img-video2 {
+                    background: url(../../../assets/img-video/165432-vtcnewslogosvg.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: inherit;
+                    padding: 1rem 0;
+                    background-size: contain;
+                }
+
+                .img-video3 {
+                    background: url(../../../assets/img-video/cuc-cong-nghe-thong-tin-bo-y-te-2.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: contain;
+                    padding: 1rem 0;
+                }
+
+                .img-video4 {
+                    background: url(../../../assets/img-video/ictnews.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: contain;
+                    padding: 1rem 0;
+                }
+
+                .img-video5 {
+                    background: url(../../../assets/img-video/infonet.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: contain;
+                    padding: 1rem 0;
+                }
+
+                .img-video6 {
+                    background: url(../../../assets/img-video/vnexpress.png) center center no-repeat;
+                    width: 100%;
+                    height: 60px;
+                    background-color: white;
+                    border-radius: 1rem;
+                    background-size: contain;
+                    padding: 1rem 0;
+                }
+            }
+        }
+    }
+}

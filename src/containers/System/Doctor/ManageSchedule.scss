@@ -1,0 +1,44 @@
+.manage-schedule__container {
+    .m-s-title {
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 2rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container {
+        label {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+
+        }
+    }
+
+    .pick-hour {
+        height: 150px;
+
+
+        .btn-schedule {
+            margin-top: 2rem;
+
+            margin-right: 1rem;
+            border: 1px solid #ccc;
+            line-height: 1.3333;
+            display: inline-block;
+            vertical-align: middle;
+            white-space: nowrap;
+            text-align: center;
+            color: #333;
+            font-weight: bolder;
+            padding: 10px;
+            min-width: 12%;
+
+
+            &.active {
+                background: #fff04b;
+            }
+
+        }
+    }
+}

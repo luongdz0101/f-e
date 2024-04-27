@@ -1,0 +1,45 @@
+.manage-doctor__container {
+    padding: 1rem;
+
+    .manage-doctor__title {
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+
+    }
+
+    .manage-doctor_editor {}
+
+    .save-content-doctor {
+        margin-top: 4rem;
+    }
+
+    .create-content-doctor {
+        margin-top: 4rem;
+    }
+
+
+    .textarea-body {
+        height: 89px;
+        width: 100%;
+
+    }
+
+    .more-info {
+        display: flex;
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+
+        .content-left {
+            width: 32.7%;
+
+        }
+
+        .content-right {
+            width: 66.5%;
+        }
+    }
+}

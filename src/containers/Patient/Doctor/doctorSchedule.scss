@@ -1,0 +1,80 @@
+.schedule-container {
+    .all-schedule {
+        cursor: pointer;
+
+        select {
+            background: transparent;
+            border: none;
+            color: #337ab7;
+            border-bottom: 1px solid #999;
+            border-radius: 0;
+            font-weight: bold;
+            padding: 3px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
+
+
+    .all-available-time {
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #333;
+        font-weight: bold;
+        cursor: pointer;
+
+
+
+        .text-calender {
+
+            span {
+                display: block;
+                margin: 1rem 0;
+
+                i {
+                    margin-right: 0.8rem;
+                }
+
+
+            }
+        }
+
+        .time-content {
+            .text-no-schedule {
+                color: #333;
+                text-transform: lowercase;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+
+            .btn-time-schedule {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+                margin-right: 8px;
+                min-width: 30%;
+                background: #fff04b;
+                line-height: 1.3333;
+                display: inline-block;
+                vertical-align: middle;
+                white-space: nowrap;
+                text-align: center;
+                color: #333;
+                font-weight: bolder;
+                padding: 10px;
+                position: relative;
+                padding: .8rem;
+
+
+
+                &:hover {
+                    background-color: #4dc9f2;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+
+
+    }
+}

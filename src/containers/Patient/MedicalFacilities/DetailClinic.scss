@@ -1,0 +1,63 @@
+.clinic-container {
+    position: relative;
+
+    .clinic-bg {
+        position: absolute;
+
+        background-image: url(../../../assets/background2.png);
+        width: 100%;
+        height: 500px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .doctor {
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        background-color: #fff;
+        border-radius: 8px;
+        border-bottom: none;
+        margin-bottom: 10px;
+        padding: 2rem;
+
+
+        .detail-dataProfile,
+        .body {
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            background-color: #fff;
+            border-radius: 8px;
+            border-bottom: none;
+            margin-bottom: 10px;
+            padding: 2rem;
+        }
+
+
+    }
+
+
+}
+
+.clinic-list {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-radius: 8px;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    h4 {
+        color: rgb(51, 122, 183);
+        font-size: 1.4rem;
+    }
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

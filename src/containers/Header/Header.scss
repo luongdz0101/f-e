@@ -1,0 +1,70 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    
+}
+
+.header-right{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+
+    .header-text__title{
+        font-size: 1.2rem;
+
+    }
+
+    .languages{
+        // margin-left: 1rem;
+        //     width: 20%;
+        //     display: grid;
+        .language-vi{
+            opacity: 0.2;
+            cursor: pointer;
+            &.active{
+                opacity: 1;
+                
+            }
+            &:hover{
+                opacity: 1;
+            }
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .language-en{
+            cursor: pointer;
+            opacity: 0.2;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            &.active{
+                opacity: 1;
+                color: white;
+            }
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

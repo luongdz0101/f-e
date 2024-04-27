@@ -1,0 +1,84 @@
+{
+    "home-header": {
+        "specialist": "Medical specialist",
+        "search-doctor": "Search for doctors by specialty",
+        "health-facility": "Health facilities",
+        "hospital_clinic": "Choose a hospital or clinic",
+        "doctor": "Doctor",
+        "doctor-good": "Choose a doctor",
+        "medical-package": "Examination package",
+        "health-check": "General health check",
+        "welcome": "welcome"
+    },
+    "banner": {
+        "title-one": "MEDICAL FOUNDATION",
+        "title-two": "COMPREHENSIVE HEALTH CARE"
+    },
+    "header-banner": {
+        "specialized": "Specialized examination",
+        "remote-examination": "Remote examination",
+        "general-examination": "General examination",
+        "medical-tests": "Medical tests",
+        "mental-health": "Mental Health",
+        "dental-examination": "Dental examination",
+        "support": "Support"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User",
+            "manage-doctor": "Doctor management",
+            "manage-admin": "Admin management",
+            "crud": "Add user information",
+            "crud-redux": "User management",
+            "manage-medical-facilities": "Medical facilities management",
+            "manage-update-clinic": "Medical Update Clinic",
+            "medical-facilities": "Medical Facilities",
+            "specialty": "Specialty",
+            "add-specialty": "Add new specialties",
+            "manage-specialty": "Manage specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Handbook management"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient": "Manage Doctor's Patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add new users",
+        "email": "Email",
+        "password": "Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone-number": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "role-id": "Role ID",
+        "position": "Position",
+        "img": "Image",
+        "save": "Save user",
+        "edit": "Edit user"
+    },
+    "home-page": {
+        "specialist": "Specialist",
+        "see-more": "See More",
+        "health-facilities": "Health Facilities",
+        "outstanding-doctor": "Doctor featured last week"
+    },
+    "manage-schedule": {
+        "title": "Schema management",
+        "choose-doctor": "Choose A Doctor",
+        "choose-time": "Choose A Time",
+        "save": "Save Doctor"
+    },
+    "manage-patient": {
+        "title": "Management of sick patients"
+    },
+    "verifyEmail": {
+        "success": "Schedule appointment successfully",
+        "failed": "The appointment is available or has been confirmed",
+        "chile": "Prescriptions and invoices are sent to personal gmail when discovery results are available.",
+        "thank": "Thank you!",
+        "chile-failed": "Please check your appointment booking process again."
+    }
+}

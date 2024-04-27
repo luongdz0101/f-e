@@ -1,0 +1,45 @@
+.detail-clinic__doctor {
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.name_doctor {
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 4px;
+    color: rgb(17, 49, 53);
+
+
+}
+
+.department-doctor {
+    font-size: 1.2rem;
+}
+
+.clinic-link-text {
+    background-color: white;
+    border: 0 solid black;
+    box-sizing: border-box;
+    color: #3498db;
+    display: inline;
+    font: 1.6rem -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: start;
+    text-decoration: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 8px;
+
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    padding: 0.4rem;
+
+}

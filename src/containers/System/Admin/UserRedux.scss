@@ -1,0 +1,17 @@
+.label-upload{
+    .preview-img{
+        cursor: pointer;
+       background-color: #ccc;
+       border-radius: 3px;
+        
+    }
+
+    .preview-image{
+        height: 150px;
+        width: 100%;
+        border: 1px solid red;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
